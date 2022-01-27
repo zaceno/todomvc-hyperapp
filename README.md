@@ -1,3 +1,3 @@
 # TodoMVC Hyperapp
 
-... watch this space ...
+This is an implementation of [TodoMVC](https://todomvc.org) using [Hyperapp](https://github.com/jorgebucaran/hyperapp). 
