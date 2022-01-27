@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="hyperapp">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hyperapp • TodoMVC</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script type="module" src="./vendor/es-module-shims.js"></script>
+    <script type="importmap-shim">
+      {"imports": {
+        "hyperapp": "./vendor/hyperapp.js",
+        "@hyperapp/html": "./vendor/hyperapp-html.js",
+        "@/": "./app/"
+      }}
+    </script>
+    <script type="module-shim" src="./app/index.js"></script>
+  </head>
+  <body class="learn-bar">
+    <section class="todoapp"></section>
+    <footer class="info">
+      <p>Double-click to edit a todo</p>
+      <p>Written by <a href="https://github.com/zaceno">Zach Enochsson</a></p>
+    </footer>
+  </body>
+</html>
