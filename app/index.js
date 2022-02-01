@@ -5,6 +5,7 @@ import subscriptions from "@/subscriptions.js"
 
 const node = document.querySelector(".todoapp")
 if (!node) throw new Error("mount node missing")
+
 app({
   init: Init,
   view,
