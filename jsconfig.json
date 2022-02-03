@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "checkJs": true,
     "strict": true,
     "noImplicitThis": false,
     "baseUrl": ".",
